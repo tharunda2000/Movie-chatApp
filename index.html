@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body class="bg-blue-200 ">
+
+
+    <div class="flex flex-col ">
+
+        <div class="flex flex-col bg-blue-300 w-screen pb-20 fixed">
+            <div class="text-center">
+            <h1 class="text-8xl mt-10 font-bold jersey text-shadow-lg">Movie Database</h1>
+        </div>
+
+        <div class="text-center mt-10 ">
+
+            <input type="text" name="" id="inText" class="bg-white h-10 w-210 rounded-full px-5">
+            <input type="button " value="Search" class="bg-blue-400 w-60 h-10 rounded-full text-center cursor-pointer hover:bg-blue-500 shadow-lg font-bold text-lg" onclick="search()">
+
+        </div>
+
+        </div>
+
+        <div class="flex flex-col mt-100 px-100" id="setText">
+
+            
+
+
+        </div>
+    </div>
+
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./app.js"></script>
+</body>
+</html>
